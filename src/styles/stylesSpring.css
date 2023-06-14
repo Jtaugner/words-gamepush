@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*Фон 3*/
+#app.chosenAppBg-3, .chosenAppBg-3 .game, .chosenAppBg-3 .levels {
+  background-image: url(../assets/bgSpring/bgSpring-big.png);
+}
+
+.chosenAppBg-3 .svgIcon {
+  fill: #3A307D;
+}
+.chosenAppBg-3 .shop__cart__card .svgIcon {
+  fill: #3F66F2;
+}
+.chosenAppBg-3 .shop__cart__card .shop__cart__name {
+  color: #3F66F2;
+}
+.chosenAppBg-3 .shop__cart__buy-button {
+  background: linear-gradient(264.82deg, #712EFF 2.88%, #217AFF 96.18%);
+  box-shadow: 0px 3px 0px #2515D4;
+}
+.chosenAppBg-3 .levelsTop__allStars {
+  color: #3A307D;
+}
+.chosenAppBg-3 .newElement {
+  background-color: #6C72F0;
+}
+.chosenAppBg-3 .words__letters-block_done .words__letter, .chosenAppBg-3 .action-block__letters .action-block__letter_selected {
+  background-color: #6C72F0;
+}
+.chosenAppBg-3 .menu__tip_count, .chosenAppBg-3 .rules__goBg {
+  background-color: #6C72F0;
+}
+.chosenAppBg-3 .rules__menu, .chosenAppBg-3 .leaderBoardInfo_my .leaderBoardInfo__rank, .chosenAppBg-3 .leaderBoardInfo_my .leaderBoardInfo__playerInfo, .chosenAppBg-3 .startCreateGame {
+  background-color: #3A307D;
+}
+.chosenAppBg-3 .shop, .chosenAppBg-3 .rules, .chosenAppBg-3 .leaderBoardInfo_my .leaderBoardInfo__image {
+  border-color: #3A307D;
+}
+.chosenAppBg-3 .shop .rules__menu, .chosenAppBg-3 .settings__text {
+  color: #3A307D;
+}
+.chosenAppBg-3 ::-webkit-scrollbar-thumb {
+  background-color: #6C72F0;
+}
+.chosenAppBg-3 .settings {
+  border-color: #3A307D;
+}
+.chosenAppBg-3 .checkbox:checked + label:after {
+  background-color: #22278b;
+}
+.chosenAppBg-3 .checkbox:checked + label:before {
+  background: #6C72F0;
+}
+.chosenAppBg-3 .newWord .words__letter {
+  background-color: #9499ff;
+}
+.chosenAppBg-3 .animWord .words__letter {
+  animation: 1s showNewWord6 forwards;
+}
+@keyframes showNewWord6 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    background-color: #9499ff;
+  }
+}
+.chosenAppBg-3 .shop__cart__name {
+  color: #3A307D;
+  border-color: #3A307D;
+}
+.chosenAppBg-3 .shop__cart__item {
+  border-color: #3A307D;
+}
+.chosenAppBg-3 .lbInGame__player, .chosenAppBg-3 .lbInGame__score {
+  border-color: #6c72f1;
+}
+.chosenAppBg-3 .wordWas .words__letter {
+  background-color: #39307c;
+}
+.chosenAppBg-3 .menu__hint {
+  background-color: rgba(108, 114, 240, 0.9);
+}
+.chosenAppBg-3 .skipTutorial {
+  background-color: #6C72F0;
+}
+.chosenAppBg-3 .cloudHint {
+  color: #6C72F0;
+}
+.chosenAppBg-3 .cloudHint__mainText {
+  color: #6C72F0;
+}
+.chosenAppBg-3 .leaderBoardInfo__player {
+  border-color: #6C72F0;
+}
+.chosenAppBg-3 .endGame__header, .chosenAppBg-3 .endGame__nextLevel {
+  background: linear-gradient(264.82deg, #712EFF 2.88%, #217AFF 96.18%);
+}
+.chosenAppBg-3 .endGame__firstPrize {
+  fill: #712EFF;
+}
+.chosenAppBg-3 .endGame__secondPrize {
+  fill: #217AFF;
+}
+.chosenAppBg-3 .endGame__menu {
+  border-color: #217AFF;
+}
+.chosenAppBg-3 .endGame__firstStop {
+  stop-color: #712EFF;
+}
+.chosenAppBg-3 .endGame__secondStop {
+  stop-color: #217AFF;
+}
+@media (orientation: portrait) {
+  .chosenAppBg-3 .shop__cart__buy-button {
+    background-color: #3A307D;
+  }
+}
+
+/*# sourceMappingURL=stylesSpring.css.map */

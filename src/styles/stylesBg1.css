@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/*Фон 1*/
+#app.chosenAppBg1, .chosenAppBg1 .game, .chosenAppBg1 .levels {
+  background-image: url(../assets/bg1/bg1.png);
+}
+
+@media (min-width: 1800px) {
+  #app.chosenAppBg1, .chosenAppBg1 .game, .chosenAppBg1 .levels {
+    background-image: url(../assets/bg1/bg1-big.png);
+  }
+}
+.chosenAppBg1 .svgIcon {
+  fill: #6E3208;
+}
+.chosenAppBg1 .shop__cart__card .svgIcon {
+  fill: #FF5C39;
+}
+.chosenAppBg1 .shop__cart__card .shop__cart__name {
+  color: #FF5C39;
+}
+.chosenAppBg1 .shop__cart__buy-button {
+  background: linear-gradient(265.01deg, #FF8862 6.23%, #FF1F00 97.6%);
+  box-shadow: 0 3px 0 #C1381C;
+}
+.chosenAppBg1 .levelsTop__allStars {
+  color: #4E2406;
+}
+.chosenAppBg1 .newElement {
+  background-color: #6E3208;
+}
+.chosenAppBg1 .words__letters-block_done .words__letter, .chosenAppBg1 .action-block__letters .action-block__letter_selected {
+  background-color: #F69A5A;
+}
+.chosenAppBg1 .menu__tip_count, .chosenAppBg1 .rules__goBg, .chosenAppBg1 .leaderBoardInfo_my .leaderBoardInfo__rank, .chosenAppBg1 .leaderBoardInfo_my .leaderBoardInfo__playerInfo, .chosenAppBg1 .startCreateGame {
+  background-color: #6E3208;
+}
+.chosenAppBg1 .rules__menu {
+  background-color: #6E3208;
+}
+.chosenAppBg1 .shop, .chosenAppBg1 .rules, .chosenAppBg1 .leaderBoardInfo_my .leaderBoardInfo__image {
+  border-color: #6E3208;
+}
+.chosenAppBg1 .shop .rules__menu, .chosenAppBg1 .settings__text {
+  color: #6d3208;
+}
+.chosenAppBg1 ::-webkit-scrollbar-thumb {
+  background-color: #DE8858;
+}
+.chosenAppBg1 .settings, .chosenAppBg1 .lbInGame__player, .chosenAppBg1 .lbInGame__score {
+  border-color: #DE8858;
+}
+.chosenAppBg1 .checkbox:checked + label:after {
+  background-color: #DE8858;
+}
+.chosenAppBg1 .checkbox:checked + label:before {
+  background: #F4CFB5;
+}
+.chosenAppBg1 .newWord .words__letter {
+  background-color: #F6765A;
+}
+.chosenAppBg1 .animWord .words__letter {
+  animation: 1s showNewWord1 forwards;
+}
+@keyframes showNewWord1 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    background-color: #F6765A;
+  }
+}
+.chosenAppBg1 .shop__cart__name {
+  color: #6d3208;
+  border-color: #6d3208;
+}
+.chosenAppBg1 .shop__cart__item {
+  border-color: #6d3208;
+}
+.chosenAppBg1 .wordWas .words__letter {
+  background-color: #bd550c;
+}
+.chosenAppBg1 .menu__hint {
+  background-color: rgba(109, 50, 8, 0.9);
+}
+.chosenAppBg1 .leaderBoardInfo__player {
+  border-color: #bd550c;
+}
+.chosenAppBg1 .endGame__header {
+  background: linear-gradient(265.01deg, #FF8862 6.23%, #FF1F00 97.6%);
+}
+.chosenAppBg1 .endGame__firstPrize {
+  fill: #FF8762;
+}
+.chosenAppBg1 .endGame__secondPrize {
+  fill: #FF2001;
+}
+.chosenAppBg1 .endGame__menu {
+  border-color: #ff1f00;
+}
+.chosenAppBg1 .endGame__firstStop {
+  stop-color: #ff8862;
+}
+.chosenAppBg1 .endGame__secondStop {
+  stop-color: #ff1f00;
+}
+.chosenAppBg1 .endGame__nextLevel {
+  background: linear-gradient(265.01deg, #FF8862 6.23%, #FF1F00 97.6%);
+}
+@media (orientation: portrait) {
+  .chosenAppBg1 .shop__cart__buy-button {
+    background-color: #6d3208;
+  }
+}
+
+/*# sourceMappingURL=stylesBg1.css.map */

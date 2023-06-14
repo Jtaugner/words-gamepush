@@ -1,0 +1,131 @@
+
+/*Фон 3*/
+
+#app.chosenAppBg-3, .chosenAppBg-3 .game, .chosenAppBg-3 .levels{
+  //background-image: url(../assets/bgSpring/bgSpring.png);
+  background-image: url(../assets/bgSpring/bgSpring-big.png);
+}
+
+//@media (min-width: 1800px) {
+//  #app.chosenAppBg-3, .chosenAppBg-3 .game, .chosenAppBg-3 .levels{
+//    background-image: url(../assets/bgSpring/bgSpring-big.png);
+//  }
+//}
+
+.chosenAppBg-3{
+  .svgIcon{
+    fill: #3A307D;
+  }
+  .shop__cart__card .svgIcon{
+    fill: #3F66F2;
+  }
+  .shop__cart__card .shop__cart__name{
+    color: #3F66F2;
+  }
+  .shop__cart__buy-button{
+    background: linear-gradient(264.82deg, #712EFF 2.88%, #217AFF 96.18%);
+    box-shadow: 0px 3px 0px #2515D4;
+  }
+  .levelsTop__allStars{
+    color: #3A307D;
+  }
+  .newElement{
+    background-color: #6C72F0;
+  }
+  .words__letters-block_done .words__letter, .action-block__letters .action-block__letter_selected{
+    background-color: #6C72F0;
+  }
+  .menu__tip_count, .rules__goBg{
+    background-color: #6C72F0;
+  }
+  .rules__menu, .leaderBoardInfo_my .leaderBoardInfo__rank, .leaderBoardInfo_my .leaderBoardInfo__playerInfo, .startCreateGame{
+    background-color: #3A307D;
+  }
+  .shop, .rules, .leaderBoardInfo_my .leaderBoardInfo__image{
+    border-color: #3A307D;
+  }
+  .shop .rules__menu, .settings__text{
+    color: #3A307D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #6C72F0;
+  }
+  .settings{
+    border-color: #3A307D;
+  }
+  .checkbox:checked + label:after {
+    background-color: #22278b;
+  }
+  .checkbox:checked + label:before {
+    background: #6C72F0;
+  }
+
+  .newWord .words__letter{
+    background-color: #9499ff;
+  }
+  .animWord .words__letter{
+    animation: 1s showNewWord6 forwards;
+  }
+  //Смена названия
+  @keyframes  showNewWord6{
+    0%{background-color: rgba(255, 255, 255, 0.85);}
+    100%{background-color: #9499ff;}
+  }
+
+  //Магазин
+  .shop__cart__name{
+    color:#3A307D;
+    border-color: #3A307D;
+  }
+  .shop__cart__item{
+    border-color: #3A307D;
+  }
+  .lbInGame__player, .lbInGame__score{
+    border-color: #6c72f1;
+  }
+
+  .wordWas .words__letter{
+    background-color: #39307c;
+  }
+
+  .menu__hint{
+    background-color: rgba(108, 114, 240, 0.9);
+  }
+  .skipTutorial{
+    background-color: #6C72F0;
+  }
+  .cloudHint{
+    color: #6C72F0;
+  }
+  .cloudHint__mainText{
+    color: #6C72F0;
+  }
+  .leaderBoardInfo__player{
+    border-color: #6C72F0;
+  }
+
+  .endGame__header, .endGame__nextLevel{
+    background: linear-gradient(264.82deg, #712EFF 2.88%, #217AFF 96.18%);
+  }
+  .endGame__firstPrize{
+    fill: #712EFF;
+  }
+  .endGame__secondPrize{
+    fill: #217AFF;
+  }
+  .endGame__menu{
+    border-color: #217AFF;
+  }
+  .endGame__firstStop{
+    stop-color: #712EFF;
+  }
+  .endGame__secondStop{
+    stop-color: #217AFF;
+  }
+
+  @media (orientation: portrait){
+    .shop__cart__buy-button{
+      background-color: #3A307D;
+    }
+  }
+}

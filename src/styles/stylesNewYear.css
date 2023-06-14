@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*Фон 3*/
+#app.chosenAppBg-2, .chosenAppBg-2 .game, .chosenAppBg-2 .levels {
+  background-image: url(../assets/bgNewYear/bgNewYear.png);
+}
+
+@media (min-width: 1800px) {
+  #app.chosenAppBg-2, .chosenAppBg-2 .game, .chosenAppBg-2 .levels {
+    background-image: url(../assets/bgNewYear/bgNewYear-big.png);
+  }
+}
+.chosenAppBg-2 .svgIcon {
+  fill: #C21332;
+}
+.chosenAppBg-2 .shop__cart__card .svgIcon {
+  fill: #E40000;
+}
+.chosenAppBg-2 .shop__cart__card .shop__cart__name {
+  color: #E40000;
+}
+.chosenAppBg-2 .shop__cart__buy-button {
+  background: linear-gradient(264.82deg, #F74A00 2.88%, #E40000 96.18%);
+  box-shadow: 0px 3px 0px #9a0000;
+}
+.chosenAppBg-2 .levelsTop__allStars, .chosenAppBg-2 .shop .rules__menu, .chosenAppBg-2 .settings__text {
+  color: #C21332;
+}
+.chosenAppBg-2 .newElement, .chosenAppBg-2 .menu__tip_count, .chosenAppBg-2 .rules__goBg {
+  background-color: #C21332;
+}
+.chosenAppBg-2 .words__letters-block_done .words__letter, .chosenAppBg-2 .action-block__letters .action-block__letter_selected {
+  background-color: #E75858;
+}
+.chosenAppBg-2 .rules__menu, .chosenAppBg-2 .leaderBoardInfo_my .leaderBoardInfo__rank, .chosenAppBg-2 .leaderBoardInfo_my .leaderBoardInfo__playerInfo, .chosenAppBg-2 .startCreateGame {
+  background-color: #C21332;
+}
+.chosenAppBg-2 .shop, .chosenAppBg-2 .rules, .chosenAppBg-2 .leaderBoardInfo_my .leaderBoardInfo__image {
+  border-color: #C21332;
+}
+.chosenAppBg-2 ::-webkit-scrollbar-thumb {
+  background-color: #E75858;
+}
+.chosenAppBg-2 .settings {
+  border-color: #CE1E1E;
+}
+.chosenAppBg-2 .checkbox:checked + label:after {
+  background-color: #D64646;
+}
+.chosenAppBg-2 .checkbox:checked + label:before {
+  background: #F4B5B5;
+}
+.chosenAppBg-2 .newWord .words__letter {
+  background-color: #C21332;
+}
+.chosenAppBg-2 .animWord .words__letter {
+  animation: 1s showNewWord5 forwards;
+}
+@keyframes showNewWord5 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    background-color: #C21332;
+  }
+}
+.chosenAppBg-2 .level .level_star {
+  background-color: rgba(184, 177, 177, 0.83);
+}
+.chosenAppBg-2 .shop__cart__name {
+  color: #CE1E1E;
+  border-color: #CE1E1E;
+}
+.chosenAppBg-2 .shop__cart__item {
+  border-color: #CE1E1E;
+}
+.chosenAppBg-2 .wordWas .words__letter {
+  background-color: #701414;
+}
+.chosenAppBg-2 .menu__hint {
+  background-color: rgba(194, 19, 50, 0.9);
+}
+.chosenAppBg-2 .levels .menu-star {
+  background-color: #C21332;
+}
+.chosenAppBg-2 .menu__level .level_full-star {
+  background: url(../assets/bgNewYear/star.svg) center center no-repeat;
+  background-size: 100%;
+}
+.chosenAppBg-2 .menu__level .level_full-star.getStar {
+  animation: showFullStar2 1s forwards;
+}
+@keyframes showFullStar2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+    background: url(../assets/bgNewYear/star.svg) center center no-repeat;
+    background-size: 100%;
+  }
+}
+.chosenAppBg-2 .snowAnimation {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+.chosenAppBg-2 .skipTutorial {
+  background-color: #76101f;
+}
+.chosenAppBg-2 .cloudHint {
+  color: #E75858;
+}
+.chosenAppBg-2 .cloudHint__mainText {
+  color: #e03f3f;
+}
+.chosenAppBg-2 .leaderBoardInfo__player, .chosenAppBg-2 .lbInGame__player, .chosenAppBg-2 .lbInGame__score {
+  border-color: #E75858;
+}
+.chosenAppBg-2 .done-word {
+  color: black;
+  text-shadow: 0 0 8px white;
+}
+.chosenAppBg-2 .endGame__header, .chosenAppBg-2 .endGame__nextLevel {
+  background: linear-gradient(265.81deg, #F74A00 3.02%, #E40000 100.69%);
+}
+.chosenAppBg-2 .endGame__firstPrize {
+  fill: #ff4d00;
+}
+.chosenAppBg-2 .endGame__secondPrize {
+  fill: red;
+}
+.chosenAppBg-2 .endGame__menu {
+  border-color: #e40000;
+}
+.chosenAppBg-2 .endGame__firstStop {
+  stop-color: #f64a00;
+}
+.chosenAppBg-2 .endGame__secondStop {
+  stop-color: #e40000;
+}
+@media (orientation: portrait) {
+  .chosenAppBg-2 .shop__cart__buy-button {
+    background-color: #C21332;
+  }
+}
+
+/*# sourceMappingURL=stylesNewYear.css.map */

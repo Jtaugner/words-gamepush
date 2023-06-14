@@ -1,0 +1,1111 @@
+@charset "UTF-8";
+/*Новый год*/
+.gameLocationWrapper-newYear::-webkit-scrollbar-thumb {
+  background-color: #DC5E5E;
+}
+
+.gameLocationWrapper-newYear::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.newYearLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/newYear/newYear.png);
+}
+
+.newYearLocation .popUp__locationName {
+  color: #2486CD;
+}
+
+.gameLocation-newYear {
+  background: url(../assets/locations/newYear/newYear-map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-newYear .svgIcon {
+  fill: #DC5E5E;
+}
+.gameLocation-newYear .levelsTop__allStars {
+  color: #DC5E5E;
+}
+.gameLocation-newYear .menu-star {
+  background-color: #DC5E5E;
+}
+.gameLocation-newYear .newElement {
+  background-color: #DC5E5E;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-newYear .location__lastLevel {
+    box-shadow: 0 0 25px 10px #DC5E5E;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-newYear {
+    background: url(../assets/locations/newYear/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-magicTales::-webkit-scrollbar-thumb {
+  background-color: #8963C7;
+}
+
+.gameLocationWrapper-magicTales::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.magicTalesLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/magicTales/magicTales.png);
+}
+
+.magicTalesLocation .popUp__locationName {
+  color: #8963C7;
+}
+
+.gameLocation-magicTales {
+  background: url(../assets/locations/magicTales/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-magicTales .svgIcon {
+  fill: #8963C7;
+}
+.gameLocation-magicTales .levelsTop__allStars {
+  color: #8963C7;
+}
+.gameLocation-magicTales .menu-star {
+  background-color: #8963C7;
+}
+.gameLocation-magicTales .newElement {
+  background-color: #8963C7;
+}
+
+.gameLocation-magicTales::-webkit-scrollbar-thumb {
+  background-color: #8963C7;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-magicTales .location__lastLevel {
+    box-shadow: 0 0 25px 10px #8963C7;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-magicTales {
+    background: url(../assets/locations/magicTales/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-animals::-webkit-scrollbar-thumb {
+  background-color: #714A11;
+}
+
+.gameLocationWrapper-animals::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.animalsLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/animals/animals.png);
+}
+
+.animalsLocation .popUp__locationName {
+  color: #429F40;
+}
+
+.gameLocation-animals {
+  background: url(../assets/locations/animals/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-animals .svgIcon {
+  fill: #714A11;
+}
+.gameLocation-animals .levelsTop__allStars {
+  color: #714A11;
+}
+.gameLocation-animals .menu-star {
+  background-color: #714A11;
+}
+.gameLocation-animals .newElement {
+  background-color: #714A11;
+}
+
+.gameLocation-animals::-webkit-scrollbar-thumb {
+  background-color: #714A11;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-animals .location__lastLevel {
+    box-shadow: 0 0 25px 10px #714A11;
+  }
+}
+.gameLocation-animals .location__upLevel {
+  top: 25%;
+}
+
+@media (orientation: portrait) {
+  .gameLocation-animals {
+    background: url(../assets/locations/animals/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-eightMarch::-webkit-scrollbar-thumb {
+  background-color: #8a3d93;
+}
+
+.gameLocationWrapper-eightMarch::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.eightMarchLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/eightMarch/eightMarch.png);
+}
+
+.eightMarchLocation .popUp__locationName {
+  color: #8a3d93;
+}
+
+.gameLocation-eightMarch {
+  background: url(../assets/locations/eightMarch/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-eightMarch .svgIcon {
+  fill: #8a3d93;
+}
+.gameLocation-eightMarch .levelsTop__allStars {
+  color: #8a3d93;
+}
+.gameLocation-eightMarch .menu-star {
+  background-color: #8a3d93;
+}
+.gameLocation-eightMarch .newElement {
+  background-color: #8a3d93;
+}
+
+.gameLocation-eightMarch::-webkit-scrollbar-thumb {
+  background-color: #8a3d93;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-eightMarch .location__lastLevel {
+    box-shadow: 0 0 25px 10px #8a3d93;
+  }
+}
+.gameLocation-eightMarch .location__upLevel {
+  top: 25%;
+}
+
+@media (orientation: portrait) {
+  .gameLocation-eightMarch {
+    background: url(../assets/locations/eightMarch/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-fbv::-webkit-scrollbar-thumb {
+  background-color: #56349D;
+}
+
+.gameLocationWrapper-fbv::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.fbvLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/fbv/fbv.png);
+}
+
+.fbvLocation .popUp__locationName {
+  color: #56349D;
+}
+
+.gameLocation-fbv {
+  background: url(../assets/locations/fbv/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-fbv .svgIcon {
+  fill: #56349D;
+}
+.gameLocation-fbv .levelsTop__allStars {
+  color: #56349D;
+}
+.gameLocation-fbv .menu-star, .gameLocation-fbv .newElement {
+  background-color: #56349D;
+}
+
+.gameLocation-fbv::-webkit-scrollbar-thumb {
+  background-color: #56349D;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-fbv .location__lastLevel {
+    box-shadow: 0 0 25px 10px #56349D;
+  }
+}
+.gameLocation-fbv .location__upLevel {
+  top: 25%;
+}
+
+@media (orientation: portrait) {
+  .gameLocation-fbv {
+    background: url(../assets/locations/fbv/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-birds::-webkit-scrollbar-thumb {
+  background-color: #8F63C7;
+}
+
+.gameLocationWrapper-birds::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.birdsLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/birds/birds.png);
+}
+
+.birdsLocation .popUp__locationName {
+  color: #3E2D4C;
+}
+
+.gameLocation-birds {
+  background: url(../assets/locations/birds/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-birds .svgIcon {
+  fill: #8F63C7;
+}
+.gameLocation-birds .levelsTop__allStars {
+  color: #8F63C7;
+}
+.gameLocation-birds .menu-star, .gameLocation-birds .newElement {
+  background-color: #8F63C7;
+}
+
+.gameLocation-birds::-webkit-scrollbar-thumb {
+  background-color: #8F63C7;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-birds .location__lastLevel {
+    box-shadow: 0 0 25px 10px #8F63C7;
+  }
+}
+.gameLocation-birds .location__upLevel {
+  top: 25%;
+}
+
+@media (orientation: portrait) {
+  .gameLocation-birds {
+    background: url(../assets/locations/birds/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-cinema::-webkit-scrollbar-thumb {
+  background-color: #9C0F0F;
+}
+
+.gameLocationWrapper-cinema::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.cinemaLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/cinema/cinema.png);
+}
+
+.cinemaLocation .popUp__locationName {
+  color: #9C0F0F;
+}
+
+.gameLocation-cinema {
+  background: url(../assets/locations/cinema/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-cinema .svgIcon {
+  fill: #9C0F0F;
+}
+.gameLocation-cinema .levelsTop__allStars {
+  color: #9C0F0F;
+}
+.gameLocation-cinema .menu-star, .gameLocation-cinema .newElement {
+  background-color: #DD0000;
+}
+
+.gameLocation-cinema::-webkit-scrollbar-thumb {
+  background-color: #9C0F0F;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-cinema .location__lastLevel {
+    box-shadow: 0 0 25px 10px #9C0F0F;
+  }
+}
+.gameLocation-cinema .location__upLevel {
+  top: 25%;
+}
+
+@media (orientation: portrait) {
+  .gameLocation-cinema {
+    background: url(../assets/locations/cinema/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-event::-webkit-scrollbar-thumb, .gameLocationWrapper-event .levels-wrapper::-webkit-scrollbar-thumb {
+  background-color: #DC2B51;
+}
+
+.gameLocationWrapper-event::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.eventLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/event/event.png);
+}
+
+.eventLocation .popUp__locationName {
+  color: #DC2B51;
+}
+
+.gameLocation-event {
+  background: url(../assets/locations/event/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-event .svgIcon {
+  fill: #DC2B51;
+}
+.gameLocation-event .levelsTop__allStars {
+  color: #DC2B51;
+}
+.gameLocation-event .menu-star, .gameLocation-event .newElement {
+  background-color: #ec4400;
+}
+.gameLocation-event .eventProperty {
+  background: url(../assets/locations/event/map.png) center center no-repeat;
+  background-size: cover;
+}
+
+.gameLocationWrapper-event .rules__menu {
+  background-color: #DC2B51;
+}
+.gameLocationWrapper-event .rules .settings__text {
+  color: #DC2B51;
+}
+.gameLocationWrapper-event .rules .svgIcon {
+  fill: #DC2B51;
+}
+
+.gameLocation-event::-webkit-scrollbar-thumb {
+  background-color: #DC2B51;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-event .location__lastLevel {
+    box-shadow: 0 0 25px 10px #DC2B51;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-event, .gameLocation-event .eventProperty {
+    background: url(../assets/locations/event/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+.gameLocationWrapper-event .rules {
+  transform-style: preserve-3d;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+}
+
+.gameLocationWrapper-event .rules__menu {
+  background-color: #F54A5E;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  transform: none;
+  left: -32px;
+  padding: 0 32px;
+  box-sizing: content-box;
+  top: -20px;
+  height: 45px;
+}
+
+.gameLocationWrapper-event .rules__menu:after,
+.gameLocationWrapper-event .rules__menu:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 79px;
+  height: 56px;
+  z-index: -1;
+}
+
+.gameLocationWrapper-event .rules__menu:after {
+  right: -62px;
+  background: url("../assets/flag-right.png") center center no-repeat;
+  background-size: 100%;
+}
+
+.gameLocationWrapper-event .rules__menu:before {
+  left: -62px;
+  background: url("../assets/flag-left.png") center center no-repeat;
+  background-size: 100%;
+}
+
+.gameLocationWrapper-event .rules::after {
+  content: "";
+  position: absolute;
+  box-sizing: content-box;
+  z-index: -1;
+  top: -15px;
+  left: -15px;
+  height: 100%;
+  width: 100%;
+  border: 15px solid white;
+  border-image: repeating-linear-gradient(45deg, #DE454D, #DE454D 20px, white 20px, white 40px) 20;
+  transform: translateZ(-1px);
+  border-radius: 20px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.gameLocationWrapper-event .rules::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -15px;
+  height: 9px;
+  width: 100%;
+  padding-right: 30px;
+  box-sizing: content-box;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gameLocationWrapper-event .rules__cross {
+  top: -10px !important;
+  right: -5% !important;
+  z-index: 2;
+}
+
+.gameLocationWrapper-event .rules__cross .svgIcon {
+  width: 45% !important;
+  height: 45% !important;
+}
+
+@media (orientation: portrait) {
+  .gameLocationWrapper-event .rules {
+    width: calc(100% - 30px);
+  }
+
+  .gameLocationWrapper-event .rules__menu {
+    width: calc(100% - 158px);
+    left: 47px;
+    top: -30px;
+  }
+
+  .gameLocationWrapper-event .rules__cross {
+    top: -25px !important;
+    right: 50px !important;
+    transform: translate(50%, -50%) !important;
+  }
+
+  .gameLocationWrapper-event .rules::before {
+    display: none !important;
+  }
+
+  .gameLocationWrapper-event .levelClosedText {
+    max-height: 75vh;
+  }
+}
+.viberClass {
+  color: #7060EA;
+}
+
+.eventLocationText ul {
+  padding-left: 20px;
+}
+
+.smallText {
+  font-size: 1.2rem;
+}
+
+.infoAboutCopy {
+  display: none;
+  position: absolute;
+  width: 150px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  font-size: 1.5rem;
+  transform: translateX(-50%);
+  padding: 5px 0;
+  text-align: center;
+  left: 50%;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.eventRules .rules__goBg, .eventLocationText .rules__goBg,
+.gameLocationWrapper-event .rules__goBg {
+  background-color: #F54A5E !important;
+}
+
+.gameLocationWrapper-event .rules__goBg {
+  width: 250px;
+  height: 50px;
+}
+
+.eventRules .rules__copyPromo {
+  font-size: 1.9rem;
+  background-color: #ff7686 !important;
+}
+
+.linkStation {
+  display: block;
+  margin: 20px 0;
+}
+
+.gameLocationWrapper-event .level .level_star {
+  background-color: rgba(255, 255, 255, 0.83) !important;
+}
+
+.gameLocationWrapper-event .level .menu-star {
+  background-color: #DC2B51 !important;
+}
+
+.gameLocationWrapper-event .newElement {
+  background: url(../assets/head.png) center center no-repeat;
+  background-size: 100%;
+  width: 120% !important;
+  height: 96% !important;
+  top: -30%;
+  left: 0;
+  border-radius: 0;
+}
+
+.eventGameLocation .levels-wrapper {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gameLocationWrapper-event .eventGameLocation .levels-wrapper {
+  max-height: 270px;
+}
+
+@media (min-width: 1000px) {
+  .gameLocationWrapper-event .eventGameLocation .levels-wrapper {
+    max-height: 388px;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocationWrapper-event .eventGameLocation .levels-wrapper {
+    max-height: 338px;
+  }
+}
+@media (orientation: portrait) and (min-height: 720px) {
+  .gameLocationWrapper-event .eventGameLocation .levels-wrapper {
+    max-height: 392px;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-default::-webkit-scrollbar-thumb, .levels-wrapper::-webkit-scrollbar-thumb {
+  background-color: #C05252;
+}
+
+.gameLocationWrapper-default::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.defaultLocation .popUp__locationName {
+  color: #C05252;
+}
+
+.gameLocation-default {
+  background: url(../assets/locations/default/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-default .svgIcon {
+  fill: #C05252;
+}
+.gameLocation-default .levelsTop__allStars {
+  color: #C05252;
+}
+.gameLocation-default .menu-star, .gameLocation-default .newElement {
+  background-color: #d22f2f;
+}
+.gameLocation-default .defaultProperty {
+  background: url(../assets/locations/default/map.png) center center no-repeat;
+  background-size: cover;
+}
+
+.gameLocationWrapper-default .rules__menu {
+  background-color: #C05252;
+}
+.gameLocationWrapper-default .rules .settings__text {
+  color: #C05252;
+}
+.gameLocationWrapper-default .rules .svgIcon {
+  fill: #C05252;
+}
+
+.gameLocation-default::-webkit-scrollbar-thumb {
+  background-color: #C05252;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-default .location__lastLevel {
+    box-shadow: 0 0 25px 10px #C05252;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-default, .gameLocation-default .defaultProperty {
+    background: url(../assets/locations/default/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+.houseLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/default/house.png);
+}
+
+.houseLocation .popUp__locationName {
+  color: #C05252;
+}
+
+/*Волшебство сказок*/
+.gameLocationWrapper-farm::-webkit-scrollbar-thumb, .levels-wrapper::-webkit-scrollbar-thumb {
+  background-color: #009C63;
+}
+
+.gameLocationWrapper-farm::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.farmLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/farm/farm.png);
+}
+
+.farmLocation .popUp__locationName {
+  color: #009C63;
+}
+
+.gameLocation-farm {
+  background: url(../assets/locations/farm/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-farm .svgIcon {
+  fill: #009C63;
+}
+.gameLocation-farm .levelsTop__allStars {
+  color: #009C63;
+}
+.gameLocation-farm .menu-star, .gameLocation-farm .newElement {
+  background-color: #00784e;
+}
+.gameLocation-farm .farmProperty {
+  background: url(../assets/locations/farm/map.png) center center no-repeat;
+  background-size: cover;
+}
+
+.gameLocationWrapper-farm .rules__menu {
+  background-color: #009C63;
+}
+.gameLocationWrapper-farm .rules .settings__text {
+  color: #009C63;
+}
+.gameLocationWrapper-farm .rules .svgIcon {
+  fill: #009C63;
+}
+
+.gameLocation-farm::-webkit-scrollbar-thumb {
+  background-color: #009C63;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-farm .location__lastLevel {
+    box-shadow: 0 0 25px 10px #009C63;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-farm, .gameLocation-farm .farmProperty {
+    background: url(../assets/locations/farm/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*Волшебство сказок*/
+.gameLocationWrapper-halloween::-webkit-scrollbar-thumb, .levels-wrapper::-webkit-scrollbar-thumb {
+  background-color: #00CBA6;
+}
+
+.gameLocationWrapper-halloween::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.halloweenLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/halloween/halloween.png);
+}
+
+.halloweenLocation .popUp__locationName {
+  color: #00CBA6;
+}
+
+.gameLocation-halloween {
+  background: url(../assets/locations/halloween/map.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-halloween .svgIcon {
+  fill: #006854;
+}
+.gameLocation-halloween .levelsTop__allStars {
+  color: #00CBA6;
+}
+.gameLocation-halloween .menu-star, .gameLocation-halloween .newElement {
+  background-color: #00e2b8;
+}
+.gameLocation-halloween .halloweenProperty {
+  background: url(../assets/locations/halloween/map.png) center center no-repeat;
+  background-size: cover;
+}
+
+.gameLocationWrapper-halloween .rules__menu {
+  background-color: #00CBA6;
+}
+.gameLocationWrapper-halloween .rules .settings__text {
+  color: #00CBA6;
+}
+.gameLocationWrapper-halloween .rules .svgIcon {
+  fill: #00CBA6;
+}
+
+.gameLocation-halloween::-webkit-scrollbar-thumb {
+  background-color: #00CBA6;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-halloween .location__lastLevel {
+    box-shadow: 0 0 25px 10px #00CBA6;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-halloween, .gameLocation-halloween .halloweenProperty {
+    background: url(../assets/locations/halloween/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+/*День валентина*/
+.gameLocationWrapper-valentines::-webkit-scrollbar-thumb, .levels-wrapper::-webkit-scrollbar-thumb {
+  background-color: #D15784;
+}
+
+.gameLocationWrapper-valentines::-webkit-scrollbar-track {
+  background-color: #e4ecf8;
+  border-radius: 0;
+}
+
+.valentinesLocation .popUp__locationPicture {
+  background-image: url(../assets/locations/valentines/valentines.png);
+}
+
+.valentinesLocation .popUp__locationName {
+  color: #D15784;
+}
+
+.gameLocation-valentines {
+  background: url(../assets/valentines.png) center center no-repeat;
+  background-size: cover;
+}
+.gameLocation-valentines .svgIcon {
+  fill: #D15784;
+}
+.gameLocation-valentines .levelsTop__allStars {
+  color: #D15784;
+}
+.gameLocation-valentines .menu-star, .gameLocation-valentines .newElement {
+  background-color: #c74573;
+}
+.gameLocation-valentines .valentinesProperty {
+  background: url(../assets/valentines.png) center center no-repeat;
+  background-size: cover;
+}
+
+.gameLocationWrapper-valentines {
+  background: url(../assets/valentines.png) center center no-repeat !important;
+  background-size: cover !important;
+}
+
+.location.gameLocation-valentines {
+  background: none;
+}
+
+.gameLocationWrapper-valentines .rules__menu {
+  background-color: #D15784;
+}
+.gameLocationWrapper-valentines .rules .settings__text {
+  color: #D15784;
+}
+.gameLocationWrapper-valentines .rules .svgIcon {
+  fill: #D15784;
+}
+
+.gameLocation-valentines::-webkit-scrollbar-thumb {
+  background-color: #D15784;
+}
+
+@media (min-width: 1000px) {
+  .gameLocation-valentines .location__lastLevel {
+    box-shadow: 0 0 25px 10px #D15784;
+  }
+}
+@media (orientation: portrait) {
+  .gameLocation-valentines, .gameLocation-valentines .valentinesProperty {
+    background: url(../assets/locations/valentines/map_port.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+.locationOpened {
+  overflow: auto !important;
+}
+
+.popUp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  z-index: 12;
+  max-width: 95%;
+}
+
+.popUp__header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.popUp__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  font-size: 2rem;
+  color: #2B2B2B;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.popUp__close {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url(../assets/blackCross.svg) center center no-repeat, white;
+  background-size: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+}
+
+.popUp__elements {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.popUp__location {
+  flex: 0 0 auto;
+  height: 240px;
+  width: 140px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.popUp__elements .popUp__location:last-child {
+  margin: 0;
+}
+
+.popUp__locationPicture {
+  position: relative;
+  background: url(../assets/locations/closedLocation.png) center center no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 184px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.popUp__locationStars {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.popUp__locationName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.6rem;
+  height: 56px;
+  font-size: 1.5rem;
+  color: #737373;
+}
+
+.closedLocation {
+  cursor: auto;
+}
+
+@media (min-width: 1000px) {
+  .popUp {
+    width: 800px;
+  }
+
+  .popUp__header {
+    margin-bottom: 40px;
+  }
+
+  .popUp__title {
+    width: 240px;
+    height: 60px;
+    font-size: 2.8rem;
+  }
+
+  .popUp__close {
+    width: 60px;
+    height: 60px;
+  }
+
+  .popUp__location {
+    width: 240px;
+    height: 380px;
+  }
+
+  .popUp__locationPicture {
+    height: 280px;
+  }
+
+  .popUp__locationStars {
+    font-size: 2.5rem;
+  }
+
+  .popUp__locationName {
+    height: 100px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+}
+/*Локация*/
+.location {
+  position: relative;
+  width: 300%;
+  height: 100%;
+  overflow-x: auto;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.location .menu__button-back {
+  display: inline-block;
+}
+
+.location .level_close {
+  cursor: auto;
+}
+
+.location .levelsTop {
+  position: fixed;
+}
+
+.location__level {
+  position: absolute;
+  top: 57%;
+}
+
+.location__upLevel {
+  top: 35%;
+}
+
+.locationOpened .rules-blackout, .locationOpened .popUp, .locationOpened .shop, .locationOpened .blurBackground, .locationOpened .game {
+  position: fixed;
+}
+
+.location .levelsTop .switchShowLocation {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (min-width: 1600px) {
+  .location__level {
+    width: 120px;
+    height: 120px;
+    font-size: 6rem;
+  }
+
+  .location__level .level_star {
+    width: 20px;
+    height: 20px;
+  }
+
+  .location__level .menu__level_stars {
+    bottom: -27px;
+  }
+
+  .location .newElement {
+    width: 39px;
+    height: 39px;
+  }
+
+  .location .newElement__circle {
+    width: 13px;
+    height: 13px;
+  }
+}
+@media (orientation: portrait) {
+  .location {
+    height: 300%;
+    width: 100%;
+  }
+
+  .location__level {
+    top: auto !important;
+    left: 57% !important;
+  }
+
+  .location__upLevel {
+    top: auto !important;
+    left: 27% !important;
+  }
+
+  .location .bottomMenu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=stylesLocations.css.map */
