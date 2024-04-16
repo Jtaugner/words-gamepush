@@ -3085,10 +3085,12 @@ let translatedLocationsNames = {
 	house: 'Дом, милый дом',
 	farm: 'Моя деревня',
 	halloween: 'Хэллоуин',
-	valentines: 'День Валентина'
+	valentines: 'День Валентина',
+	games: 'День Видеоигр',
+	writers: 'Знаменитые писатели'
 }
 
-let defaultLocations = ['house'];
+let defaultLocations = ['house', 'writers'];
 
 // function getBanner(){
 // 	try{
@@ -3414,7 +3416,7 @@ export default {
 			locationGame: false,
 			locationStars: [],
 			wordSwing: '',
-			allLocationsNames: ['valentines','halloween', 'farm', 'house', 'cinema', 'birds', 'fbv', 'eightMarch', 'animals', 'magicTales',  'newYear'],
+			allLocationsNames: ['writers', 'games', 'valentines','halloween', 'farm', 'house', 'cinema', 'birds', 'fbv', 'eightMarch', 'animals', 'magicTales',  'newYear'],
 			showInfoAboutPageNumber: false,
 			showAdvError: false,
 			showInfoAboutPortrait: false,
