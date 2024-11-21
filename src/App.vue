@@ -1911,8 +1911,8 @@ if(chosenBackground){
 	chosenBackground = Number(chosenBackground);
 	// importBg(chosenBackground, true);
 }else{
-	chosenBackground = 6;
-	setToStorage('chosenBackground', chosenBackground);
+	chosenBackground = -3;
+	setToStorage('chosenBackground', -3);
 	// deleteBlockBg = true;
 }
 try{
