@@ -1797,7 +1797,7 @@ function englishNewDecompress(compressedWords){
 
 const lastVersion = "ver-38";
 // Поиск слова
-// let length = 0;
+	// let length = 0;
 // for(let i = 0; i < allWords.length; i++){
 //   if(wordsFromWords[allWords[i]].length > length){
 //     length = wordsFromWords[allWords[i]].length;
@@ -4199,23 +4199,14 @@ export default {
 				 * first — показать первым
 				 * last — показать последним
 				 */
-				withMe: 'last'
+				withMe: 'last',
+				showNearest: 3
 			}).then((res)=>{
-				GP.leaderboard.fetchPlayerRating({
-					// Сортировка по полям слева на право
-					orderBy: ['score'],
-					// Сортировка DESC — сначала большие значение, ASC — сначала маленькие
-					order: 'DESC',
-				}).then((playerRes)=>{
-					console.log('PLAYER POSIION:', playerRes.player.position)
-					console.log(res.players);
-					that.playerInfo.position = playerRes.player.position;
-					that.leaderBoard = res.players;
-
-				}).catch((e)=>{
-					console.log(e);
-					that.leaderBoard = res.players;
-				});
+				console.log(res);
+				console.log('PLAYER POSIION:', res.player.position)
+				console.log(res.players);
+				that.playerInfo.position = res.player.position;
+				that.leaderBoard = res.players;
 			}).catch((e)=>{console.log(e)});
 		},
 		getLeaderBoardInGame(){
