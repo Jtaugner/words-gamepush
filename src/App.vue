@@ -696,7 +696,7 @@
 				<div class="word-definition">
 					{{notRussian ? 'Definition - loading...' : 'Определение слова - загрузка...'}}
 				</div>
-				<iframe src="https://ru.m.wiktionary.org/wiki/" id="definitionIframe" v-show="!notRussian"></iframe>
+				<iframe src="https://ru.m.wiktionary.org/wiki/" id="definitionIframe" v-show="!notRussian" sandbox></iframe>
 
 			</div>
 
@@ -2978,7 +2978,7 @@ let dictWordsToReplace = {
 
 function getWordDesc(word) {
 	console.log('getWordDesc --- ', word);
-	if(notRussianGame) return getEngDesc(word);
+	// if(notRussianGame) return getEngDesc(word);
 	try{
 		let defIframe = document.getElementById('definitionIframe');
 		if(dictionary[word]){
@@ -2991,11 +2991,16 @@ function getWordDesc(word) {
 
 		defIframe.classList.remove('closedIframe');
 		let wordDefinition = document.querySelector('.word-definition')
-		wordDefinition.innerHTML = 'Определение слова - загрузка...';
-		defIframe.onload = function (){
+		defIframe.onload = function (e){
 			wordDefinition.innerHTML = '';
 		}
-		defIframe.src = 'https://ru.m.wiktionary.org/wiki/' + word + '#Значение';
+		if(notRussianGame){
+			wordDefinition.innerHTML = 'Definition - loading...';
+			defIframe.src = 'https://en.wiktionary.org/wiki/' + word + '#Noun';
+		}else{
+			wordDefinition.innerHTML = 'Определение слова - загрузка...';
+			defIframe.src = 'https://ru.wiktionary.org/wiki/' + word + '#Значение';
+		}
 	}catch(e){
 		console.log(e);
 	}
