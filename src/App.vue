@@ -1293,6 +1293,36 @@
 
 		</div>
 
+		<div class="rules-blackout" v-if="crosspromo" @click="toggleCrossPromo"></div>
+
+		<div class="rules crossPromoRules" v-if="crosspromo">
+			<cross-vue @click.native="toggleCrossPromo()" ></cross-vue>
+			<h2 class="rules__menu">
+				Новая игра!
+			</h2>
+			<p class="crossPromoText">
+				Открывайте буквы и расшифровывайте фразы в нашей новой игре -
+				<span class="crossPromoText_bold">Криптограмма</span>
+			</p>
+			<a :href="crossPromoObj.url"
+			   target="_blank"
+			   rel="noopener noreferrer"
+			   class="crossPromoWrapper"
+			>
+				<div
+					class="my-game crossPromoImg"
+				>
+				</div>
+			</a>
+			<a :href="crossPromoObj.url"
+			   class="crossPromo__play rules__goBg"
+			   target="_blank"
+			>
+				Играть
+			</a>
+
+		</div>
+
 		<div class="infoAboutCopy">Скопировано</div>
 
 	</div>
@@ -1878,6 +1908,7 @@ let notRussianGame = false;
 let PLAYESTATE = {};
 let PLAYERSTATS = {};
 let doDeleteBlock;
+let crossPromoName = 'crossPromoCrypto';
 let allDoneWords = getFromStorage('allDoneWords');
 let locationDoneWords = getFromStorage('locationDoneWords');
 let tips = getFromStorage('tips');
@@ -1890,6 +1921,7 @@ let chosenBackground = getFromStorage('chosenBackground');
 let portraitAdviceAmount = getFromStorage('portraitAdviceAmount');
 let isLvlFiveHintDone = getFromStorage('isLvlFiveHintDone');
 let savedMyGame = getFromStorage('savedMyGame');
+let crossPromoShows = getFromStorage(crossPromoName);
 let infoAboutMyGame = getFromStorage('infoAboutMyGame');
 let infoAboutClosedEvent = !!getFromStorage('infoAboutClosedEvent2');
 let infoAboutEvent = !!getFromStorage('infoAboutEvent');
@@ -1900,6 +1932,11 @@ if(savedMyGame){
 	}catch(e){
 		savedMyGame = false;
 	}
+}
+if(crossPromoShows){
+	crossPromoShows = Number(crossPromoShows);
+}else{
+	crossPromoShows = 0;
 }
 if(infoAboutMyGame){
 	infoAboutMyGame = Number(infoAboutMyGame);
@@ -3464,7 +3501,11 @@ export default {
 			isEndGame: false,
 			endGameIcon: 'endGame__icon1',
 			platformType: platformType,
-			bannerShow: false
+			bannerShow: false,
+			crosspromo: false,
+			crossPromoObj: {
+				url: 'https://vk.com/app53847636'
+			}
 		}
 	},
 	computed:{
@@ -3516,6 +3557,21 @@ export default {
 		}
 	},
 	methods:{
+		toggleCrossPromo(){
+			this.crosspromo = !this.crosspromo;
+		},
+		crossPromoShow(){
+			if(crossPromoShows < 3){
+				if(this.lvl >= 10 && this.crossPromoObj){
+					params({['cross']: 1});
+					this.crosspromo = true;
+					crossPromoShows++;
+					setToStorage(crossPromoName, crossPromoShows);
+					crossPromoShows = 5;
+				}
+			}
+
+		},
 		changeOrientation(){
 			console.log('change: ', window.innerWidth, window.innerHeight)
 			if(window.innerHeight > window.innerWidth){
@@ -4685,6 +4741,7 @@ export default {
 					return;
 				}
 				this.getLevel(this.lvl+1);
+				this.crossPromoShow();
 			}
 		},
 		prevLocation(){

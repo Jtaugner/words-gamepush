@@ -3383,3 +3383,32 @@ b{
     }
   }
 }
+
+
+.crossPromoWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crossPromoImg{
+  width: 300px;
+  height: 180px;
+  background: url(../assets/crossPromo.png) center center no-repeat;
+  background-size: 100%;
+}
+.crossPromoText{
+  font-size: 1.7rem;
+}
+.crossPromoText_bold{
+  font-weight: bold;
+}
+@media (max-height: 400px){
+  .crossPromoImg{
+    height: 150px;
+  }
+}
+@media (max-height: 350px){
+  .crossPromoImg{
+    height: 130px;
+  }
+}
